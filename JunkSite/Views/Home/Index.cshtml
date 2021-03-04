@@ -1,0 +1,43 @@
+﻿@using JunkSite.web.Models
+@using JunkSite.db
+@model ViewJunkViewModel
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="jumbotron">
+
+                @foreach (Junk j in Model.JunkList)
+                {
+                    <h5>Listed by @j.Name</h5>
+                    <h5>Listed on @j.Date.ToLongDateString()</h5>
+                    <h5>Phone Number: @j.Phone</h5>
+                    <h3>Details:</h3>
+                    <p>@j.Details</p>
+                    if (Model.Ids != null)
+                    {
+                        @foreach (int id in Model.Ids)
+                        {
+                            if (j.Id == id)
+                            {
+                                <form action="/home/deletePost" method="post">
+                                    <input type="hidden" value="@j.Id" name="deleteId" />
+                                    <button class="btn btn-danger">DELETE</button>
+                                </form>
+
+                            }
+                        }
+                    }
+
+
+
+                }
+
+
+
+                
+
+
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JunkSite.web", "JunkSite\JunkSite.web.csproj", "{B0BB723B-BE88-4877-85BC-E2CD6C7ED01A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JunkSite.db", "JunkSite.db\JunkSite.db.csproj", "{987EDC5C-B880-4B3F-B767-605D65E4CB4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0BB723B-BE88-4877-85BC-E2CD6C7ED01A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0BB723B-BE88-4877-85BC-E2CD6C7ED01A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0BB723B-BE88-4877-85BC-E2CD6C7ED01A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0BB723B-BE88-4877-85BC-E2CD6C7ED01A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{987EDC5C-B880-4B3F-B767-605D65E4CB4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{987EDC5C-B880-4B3F-B767-605D65E4CB4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{987EDC5C-B880-4B3F-B767-605D65E4CB4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{987EDC5C-B880-4B3F-B767-605D65E4CB4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59CF4CDB-3D9C-43C6-9B27-1C5E798DB493}
+	EndGlobalSection
+EndGlobal
